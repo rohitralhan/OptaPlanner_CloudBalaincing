@@ -135,27 +135,6 @@ The goal is to create a planning solution that places _processes_ on _computers_
 * Minimize the total cost of the required computers.
 
 
-== OpenShift Environment
-
-A shared Openshift environment is provided. In this OpenShift environment we have deployed a _CodeReady Workspaces_ environment: a collaborative Kubernetes-native development solution that delivers OpenShift workspaces and in-browser IDE for rapid cloud application development.
-
-Details about the environment are obtained through the Red Hat _GuidGrabber_.
-
-. In a browser window, navigate to the _GuidGrabber_ address provided by your instructor.
-+
-image::images/guid_grabber_landing_page_summit.png[]
-. From this page select the Lab Code provided by your instructor.
-. Enter the *Activation Key* provided by your instructor.
-. Enter your email address.
-. Click `Submit`.
-. The resulting page will display your lab’s GUID and other useful information about your lab environment. +
-+
-image::images/guid_grabber_details_page_2.png[]
-
-To log in into the CodeReady Workspaces console:
-
-* Navigate to the CodeReady Workspaces environment via the link provided in your _GuidGrabber_ screen.
-
 == CodeReady WorkSpaces
 
 Red Hat CodeReady Workspaces is a developer workspace server and cloud IDE. Workspaces are defined as project code files and all of their dependencies neccessary to edit, build, run, and debug them. Each workspace has its own private IDE hosted within it. The IDE is accessible through a browser. The browser downloads the IDE as a single-page web application.
